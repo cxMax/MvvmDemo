@@ -4,6 +4,8 @@ import android.os.Handler;
 import android.os.Looper;
 
 import com.cxmax.mvvmdemo.config.manager.CacheManager;
+import com.cxmax.mvvmdemo.config.manager.ConfigXML;
+import com.cxmax.mvvmdemo.config.manager.PageManager;
 
 import java.util.HashMap;
 import java.util.Map;
