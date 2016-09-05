@@ -6,13 +6,14 @@ import com.cxmax.mvvmdemo.BR;
 import com.cxmax.mvvmdemo.ui.view.recyclerview.DataBindingRecyclerView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @Author CaiXi on  2016/9/6 00:04.
  * @Github: https://github.com/cxMax
  * @Description
  */
-public abstract class AbsRecyclerViewModel extends LoadingViewModel {
+public abstract class AbsRecyclerViewModel<T> extends LoadingViewModel {
 
     @Bindable
     public List<T> data = new ArrayList<>();
